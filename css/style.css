@@ -1,0 +1,1015 @@
+.hero-section .main-vid_wrapper {
+    height: 8.61rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 9.4rem
+}
+
+.hero-section .main-vid_wrapper .bg-wrap {
+    background: linear-gradient(180deg, #0c0c0e .8%, rgba(13, 13, 16, 0) 15%), linear-gradient(1turn, #0c0c0e 8%, rgba(13, 13, 16, 0) 25%)
+}
+
+.hero-section .main-vid_wrapper:before {
+    background: linear-gradient(90deg, #0c0c0e 1.8%, rgba(13, 13, 16, 0) 15%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.hero-section .main-vid_wrapper:after {
+    background: linear-gradient(270deg, #0c0c0e .8%, rgba(13, 13, 16, 0) 15%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.hero-section .main-vid_wrapper video {
+    display: block;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    z-index: -1
+}
+
+.hero-section .main-vid_wrapper #main-vid {
+    position: relative;
+    z-index: -1
+}
+
+.hero-section .hero-contents {
+    padding: .6rem 0
+}
+
+.hero-section .hero-title {
+    letter-spacing: .02em;
+    margin-bottom: .43rem;
+    max-width: 7.08rem;
+    font-size: .37rem;
+}
+
+.hero-section .hero-title span {
+    display: inline-block
+}
+
+.hero-section .hero-title_mobile {
+    display: none
+}
+
+.hero-section .hero-description {
+    display: block;
+    height: 1.72rem;
+    margin-bottom: .45rem;
+    width: 5.97rem
+}
+
+.hero-section .hero-description [class|=bodymovin__arrows] {
+    display: none;
+    width: 100%
+}
+
+.hero-section .hero-description [class|=bodymovin__arrows].active {
+    display: block
+}
+
+.hero-section .hero-description .bodymovin__arrows-tablet {
+    width: 100%
+}
+
+.hero-section .hero-links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 3.52rem
+}
+
+.hero-section .hero-links .btn-main {
+    width: 2rem
+}
+
+.hero-section .hero-links .btn-inline {
+    width: 1.28rem
+}
+
+.specialty-section .specialty_wrapper {
+    display: flex
+}
+
+.specialty-section .specialty__left {
+    margin-right: 1.02rem;
+    width: 6.08rem
+}
+
+.specialty-section .specialty__right {
+    width: 5.66rem
+}
+
+.specialty-section .specialty-text,
+.specialty-section .specialty-title {
+    color: var(--color-gray);
+    pointer-events: none;
+    transition: color 375ms ease;
+    -webkit-transition: color 375ms ease;
+    -moz-transition: color 375ms ease;
+    -o-transition: color 375ms ease
+}
+
+.specialty-section .specialty-title {
+    letter-spacing: .007rem;
+    line-height: .338rem;
+    margin-bottom: .24rem
+}
+
+.specialty-section .specialty-text {
+    margin-bottom: .2rem
+}
+
+.specialty-section .specialty__left,
+.specialty-section .specialty__right {
+    padding: .36rem 0;
+    position: relative
+}
+
+.specialty-section .specialty__left [class|=orbit-wrapper],
+.specialty-section .specialty__right [class|=orbit-wrapper] {
+    position: absolute;
+    right: -.21rem;
+    top: -.04rem;
+    width: 4.13rem;
+    z-index: -1
+}
+
+.specialty-section .specialty__left .orbit-wrapper-2,
+.specialty-section .specialty__right .orbit-wrapper-2 {
+    transform: rotateX(180deg) rotateY(180deg)
+}
+
+.specialty-section .specialty__left .js-specialty-text,
+.specialty-section .specialty__right .js-specialty-text {
+    display: inline-block
+}
+
+.specialty-section .specialty__left .btn-inline,
+.specialty-section .specialty__right .btn-inline {
+    margin-left: .04rem
+}
+
+.specialty-section .specialty__left:hover .btn-inline,
+.specialty-section .specialty__left:hover .specialty-text,
+.specialty-section .specialty__left:hover .specialty-title,
+.specialty-section .specialty__right:hover .btn-inline,
+.specialty-section .specialty__right:hover .specialty-text,
+.specialty-section .specialty__right:hover .specialty-title {
+    color: var(--color-white)
+}
+
+.asm-platform-section .description-block {
+    padding-bottom: .34rem
+}
+
+.asm-platform-section .asm-for-whom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0 .2rem;
+    position: relative
+}
+
+.asm-platform-section .asm-for-whom_finances {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.asm-platform-section .asm-for-whom_finances .asm-for-whom_description {
+    width: 4.44rem
+}
+
+.asm-platform-section .asm-for-whom_finances .cards-wrapper {
+    padding-top: .4rem
+}
+
+.asm-platform-section .asm-for-whom_gaming {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .7rem;
+    width: 100%
+}
+
+.asm-platform-section .asm-for-whom_gaming .cards-wrapper {
+    margin-right: 1.42rem
+}
+
+.asm-platform-section .asm-for-whom_gaming .content_left {
+    margin-right: .72rem;
+    width: 2.23rem
+}
+
+.asm-platform-section .asm-for-whom_gaming .content_left p {
+    letter-spacing: .004rem;
+    line-height: .2rem
+}
+
+.asm-platform-section .asm-for-whom_gaming .content_left p br {
+    display: none
+}
+
+.asm-platform-section .asm-for-whom_gaming .content_right {
+    width: 4.2rem
+}
+
+.asm-platform-section .asm-for-whom_metaverses {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: center;
+    margin-top: 1.24rem;
+    max-width: 100%
+}
+
+.asm-platform-section .asm-for-whom_metaverses .cards-wrapper {
+    margin-left: .62rem;
+    margin-right: 1.02rem
+}
+
+.asm-platform-section .asm-for-whom_metaverses .asm-for-whom_description {
+    padding-top: .16rem;
+    width: 5.13rem
+}
+
+.asm-platform-section .asm-for-whom_metaverses .asm-for-whom_description p:first-of-type {
+    margin-bottom: 0;
+    padding-right: .12rem
+}
+
+.asm-platform-section .asm-for-whom_metaverses .asm-for-whom_text br {
+    display: none
+}
+
+.asm-platform-section .asm-for-whom_description .asm-for-whom_title {
+    color: var(--color-gray);
+    line-height: .338rem;
+    margin-bottom: .34rem;
+    transition: color 375ms ease
+}
+
+.asm-platform-section .asm-for-whom_description .asm-for-whom_text {
+    color: var(--color-gray);
+    letter-spacing: .004rem;
+    letter-spacing: .001rem;
+    transition: color 375ms ease
+}
+
+.asm-platform-section .asm-for-whom_description .asm-for-whom_text:not(:last-of-type) {
+    margin-bottom: .19rem
+}
+
+.asm-platform-section .asm-for-whom .cards-wrapper {
+    display: flex
+}
+
+.asm-platform-section .asm-for-whom .cards-wrapper .card:not(:last-of-type) {
+    margin-right: .6rem
+}
+
+.asm-platform-section .asm-for-whom .card-inner {
+    background-color: #141416;
+    height: 1.8rem;
+    margin-bottom: .2rem;
+    position: relative;
+    width: 1.8rem
+}
+
+.asm-platform-section .asm-for-whom .card-inner img {
+    height: 100%;
+    left: 50%;
+    max-height: 1.3rem;
+    max-width: 1.3rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 375ms ease;
+    width: 100%
+}
+
+.asm-platform-section .asm-for-whom .card-inner img.rgb {
+    opacity: 0;
+    visibility: hidden
+}
+
+.asm-platform-section .asm-for-whom .card .img-wrapper {
+    max-width: 1.3rem
+}
+
+.asm-platform-section .asm-for-whom .card-title {
+    color: var(--color-white);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-4);
+    line-height: .32rem
+}
+
+.asm-platform-section .asm-for-whom .spline-xy,
+.asm-platform-section .asm-for-whom .spline-xyxy,
+.asm-platform-section .asm-for-whom .spline-yx,
+.asm-platform-section .asm-for-whom .spline-yxy {
+    overflow: hidden
+}
+
+.asm-platform-section .asm-for-whom .spline-xy img,
+.asm-platform-section .asm-for-whom .spline-xy svg,
+.asm-platform-section .asm-for-whom .spline-xyxy img,
+.asm-platform-section .asm-for-whom .spline-xyxy svg,
+.asm-platform-section .asm-for-whom .spline-yx img,
+.asm-platform-section .asm-for-whom .spline-yx svg,
+.asm-platform-section .asm-for-whom .spline-yxy img,
+.asm-platform-section .asm-for-whom .spline-yxy svg {
+    height: 100%;
+    width: 100%
+}
+
+.asm-platform-section .asm-for-whom .spline-yx {
+    height: 3.72rem;
+    left: 5.62rem;
+    position: absolute;
+    top: 3.1rem;
+    width: 2.12rem
+}
+
+.asm-platform-section .asm-for-whom .spline-yxy {
+    height: 5.02rem;
+    left: 0;
+    position: absolute;
+    top: 5.01rem;
+    width: 6.6rem
+}
+
+.asm-platform-section .asm-for-whom .spline-desktop {
+    display: block
+}
+
+.asm-platform-section .asm-for-whom .spline-tablet {
+    display: none
+}
+
+.asm-platform-section .asm-for-whom .round-logo_wrapper {
+    align-items: center;
+    display: flex;
+    height: .3rem;
+    justify-content: center;
+    left: 5.97rem;
+    position: absolute;
+    top: 5.73rem;
+    width: .3rem
+}
+
+.asm-platform-section .asm-for-whom .round-logo_wrapper img {
+    display: block;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+.asm-demo-section .description-block {
+    border: none
+}
+
+.video-js {
+    transform: translate(0px, -12%) !important;
+}
+
+.asm-demo-section .description-block_text {
+    letter-spacing: var(--letter-spacing-0)!important;
+    width: 10.79rem
+}
+
+.asm-demo-section .description-block-title_desktop {
+    display: flex
+}
+
+.asm-demo-section .description-block-title_mobile {
+    display: none
+}
+
+.asm-demo-section .description-block-title_mobile .description-block_text {
+    width: 100%
+}
+
+.asm-demo-section .asm-demo_stage {
+    display: flex;
+    padding-bottom: .36rem;
+    padding-top: .15rem;
+    position: relative;
+    width: 100%
+}
+
+.asm-demo-section .asm-demo_stage-platform-wrapper,
+.asm-demo-section .asm-demo_stage-platform-wrapper img {
+    width: 100%
+}
+
+.asm-demo-section .asm-demo_stage-sphere-wrapper {
+    height: 6.02rem;
+    left: 4rem;
+    position: absolute;
+    top: -.3rem;
+    width: 6.02rem
+}
+
+.asm-demo-section .asm-demo_stage-sphere-wrapper img {
+    display: block;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+.asm-demo-section .asm-demo_desc {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -.08rem
+}
+
+.asm-demo-section .asm-demo_desc-text {
+    letter-spacing: 0;
+    line-height: .24rem;
+    text-align: left;
+    width: 5.8rem
+}
+
+.asm-demo-section .asm-demo_desc-text span {
+    display: inline-block
+}
+
+@media (max-width:1024px) {
+    .header {
+        height: 1.19rem
+    }
+    .hero-section .main-vid_wrapper {
+        height: 6.75rem;
+        right: .5129rem;
+        top: 0;
+        width: 7.37rem
+    }
+    .hero-section .hero-contents {
+        padding-top: 4.9rem
+    }
+    .hero-section .hero-title {
+        font-size: .4rem;
+        line-height: .54rem;
+        margin-bottom: .37rem;
+    }
+    .hero-section .hero-links .btn-inline {
+        font-size: var(--font-size-btn)
+    }
+    .hero-section .hero-description {
+        height: 1.77rem;
+        width: 100%
+    }
+    .specialty-section .specialty_wrapper {
+        flex-wrap: wrap
+    }
+    .specialty-section .specialty_wrapper .specialty__left,
+    .specialty-section .specialty_wrapper .specialty__right {
+        margin: 0;
+        max-width: none;
+        padding: .32rem 0 .28rem;
+        width: 100%
+    }
+    .specialty-section .specialty_wrapper .specialty__left [class|=orbit-wrapper],
+    .specialty-section .specialty_wrapper .specialty__right [class|=orbit-wrapper] {
+        right: .2rem;
+        top: -.15rem
+    }
+    .specialty-section .specialty_wrapper .specialty__left .btn-inline,
+    .specialty-section .specialty_wrapper .specialty__right .btn-inline {
+        margin-left: 0
+    }
+    .specialty-section .specialty_wrapper .specialty-title {
+        font-size: .2rem;
+        letter-spacing: 0;
+        line-height: .2817rem
+    }
+    .specialty-section .specialty_wrapper .specialty-text {
+        font-size: var(--font-size-par2);
+        letter-spacing: -.009rem;
+        line-height: .24rem
+    }
+    .specialty-section .specialty_wrapper .btn {
+        font-size: var(--font-size-btn);
+        line-height: var(--line-height-btn)
+    }
+    .asm-platform-section .description-block {
+        padding-bottom: .54rem
+    }
+    .asm-platform-section .asm-for-whom {
+        padding-top: .64rem
+    }
+    .asm-platform-section .asm-for-whom .spline-desktop {
+        display: none
+    }
+    .asm-platform-section .asm-for-whom .spline-tablet {
+        display: block
+    }
+    .asm-platform-section .asm-for-whom .spline-xy,
+    .asm-platform-section .asm-for-whom .spline-xyxy {
+        position: absolute
+    }
+    .asm-platform-section .asm-for-whom .spline-xyxy {
+        height: 4.53rem;
+        left: 1.69rem;
+        top: 1.44rem;
+        width: 4.79rem
+    }
+    .asm-platform-section .asm-for-whom .spline-xy {
+        height: 2.58rem;
+        left: 5.35rem;
+        top: 3.38rem;
+        width: 1.13rem
+    }
+    .asm-platform-section .asm-for-whom .round-logo_wrapper {
+        height: .3506rem;
+        left: 5.76rem;
+        top: 4.14rem;
+        width: .3541rem
+    }
+    .asm-platform-section .asm-for-whom .cards-wrapper {
+        margin: 0
+    }
+    .asm-platform-section .asm-for-whom .cards-wrapper .card:not(:last-of-type) {
+        margin-right: .2rem
+    }
+    .asm-platform-section .asm-for-whom .cards-wrapper .card-title {
+        line-height: .12rem;
+        padding-top: .1rem
+    }
+    .asm-platform-section .asm-for-whom .cards-wrapper .card-inner {
+        height: 1.53rem;
+        margin-bottom: .13rem;
+        width: 1.53rem
+    }
+    .asm-platform-section .asm-for-whom .cards-wrapper .card-inner img {
+        max-height: .92rem;
+        max-width: .92rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming {
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        margin-bottom: 1.3rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .cards-wrapper {
+        margin-bottom: .47rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .content_left {
+        margin: 0;
+        width: 2.68rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .content_left p {
+        font-size: var(--font-size-small);
+        letter-spacing: 0
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .content_left p br {
+        display: inline
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances,
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses {
+        flex: 0 0 50%;
+        flex-wrap: wrap;
+        max-width: 3.27rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .asm-for-whom_description,
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .asm-for-whom_description .asm-for-whom_text,
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .asm-for-whom_description,
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .asm-for-whom_description .asm-for-whom_text {
+        width: 100%
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .asm-for-whom_description {
+        margin-top: .2rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .cards-wrapper {
+        margin: 0;
+        order: 0;
+        padding: 0
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .asm-for-whom_description {
+        order: 1
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses {
+        justify-content: left;
+        margin: 0
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .asm-for-whom_description {
+        padding-top: .46rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .asm-for-whom_description p:first-of-type {
+        margin-bottom: .14rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .asm-for-whom_text br {
+        display: inline
+    }
+    .asm-platform-section .asm-for-whom_description .asm-for-whom_title {
+        font-size: .18rem;
+        line-height: .2535rem;
+        margin-bottom: .23rem
+    }
+    .asm-platform-section .asm-for-whom_description .asm-for-whom_text {
+        font-size: var(--font-size-par3);
+        letter-spacing: 0;
+        line-height: var(--line-height-par3);
+        width: 3.55rem
+    }
+    .asm-platform-section .asm-for-whom_description .asm-for-whom_text:not(:last-of-type) {
+        margin-bottom: .11rem
+    }
+    .asm-demo-section .asm-demo_stage {
+        padding-bottom: .24rem;
+        padding-top: 2.18rem
+    }
+    .asm-demo-section .asm-demo_stage-sphere-wrapper {
+        height: 4.611rem;
+        left: 1.5rem;
+        top: -.1rem;
+        width: 4.611rem
+    }
+    .asm-demo-section .asm-demo_desc {
+        margin: 0
+    }
+    .asm-demo-section .asm-demo_desc-text {
+        font-size: var(--font-size-par2);
+        letter-spacing: .003rem;
+        line-height: .22rem;
+        order: 0;
+        text-align: left;
+        width: 4.25rem
+    }
+    .asm-demo-section .asm-demo_desc-text br {
+        display: none
+    }
+    .asm-demo-section .asm-demo_desc .btn {
+        height: .65rem;
+        order: 1;
+        width: 1.36rem
+    }
+}
+
+@media (max-width:480px) {
+    .hero-section .main-vid_wrapper {
+        height: 4.86rem;
+        right: -.44rem;
+        top: 0rem;
+        width: 5.29rem
+    }
+    .hero-section .hero-title {
+        font-size: .26rem;
+        letter-spacing: .005rem;
+        line-height: .33rem;
+        margin-bottom: .2rem;
+        padding: 0
+    }
+    .hero-section .hero-title_desktop,
+    .hero-section .hero-title br {
+        display: none
+    }
+    .hero-section .hero-title_mobile {
+        display: block;
+        font-size: 0.185rem;
+    }
+    .hero-section .hero-contents {
+        padding-top: 4.1rem
+    }
+    .hero-section .hero-contents .hero-description {
+        flex-wrap: wrap;
+        height: 1.72rem;
+        margin-bottom: .3rem;
+        width: 100%
+    }
+    .hero-section .hero-contents .hero-links {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .hero-section .hero-contents .hero-links .btn-main {
+        font-size: .14rem;
+        line-height: .168rem;
+        margin-bottom: .19rem
+    }
+    .hero-section .hero-contents .hero-links .btn-inline {
+        font-size: .14rem;
+        justify-content: center;
+        line-height: .168rem
+    }
+    .specialty-section .specialty_wrapper .specialty-title {
+        font-size: .18rem;
+        line-height: .2535rem;
+        margin-bottom: .16rem
+    }
+    .specialty-section .specialty_wrapper .specialty-text {
+        font-size: var(--font-size-small);
+        letter-spacing: 0;
+        line-height: .2rem
+    }
+    .specialty-section .specialty_wrapper .specialty__left [class|=orbit-wrapper],
+    .specialty-section .specialty_wrapper .specialty__right [class|=orbit-wrapper] {
+        height: 1.755rem;
+        right: -14%;
+        top: -6%;
+        transform: scale(1.033);
+        width: 4.2rem
+    }
+    .specialty-section .specialty_wrapper .specialty__left .orbit-wrapper-2,
+    .specialty-section .specialty_wrapper .specialty__right .orbit-wrapper-2 {
+        transform: scale(1.033) rotateX(180deg) rotateY(180deg)
+    }
+    .asm-platform-section .asm-for-whom [class|=spline] {
+        display: none
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_description .asm-for-whom_title {
+        margin-bottom: .24rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_description .asm-for-whom_text {
+        width: 100%
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_description .asm-for-whom_text:not(:last-of-type) {
+        margin-bottom: .16rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .asm-for-whom_description,
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .asm-for-whom_description,
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .asm-for-whom_description {
+        margin: 0;
+        padding: 0
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances .cards-wrapper,
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .cards-wrapper,
+    .asm-platform-section .asm-for-whom .asm-for-whom_metaverses .cards-wrapper {
+        margin-bottom: .44rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_finances,
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming {
+        margin-bottom: .53rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .cards-wrapper {
+        order: 1
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .cards-wrapper .card-inner {
+        margin-bottom: .24rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .content_left {
+        margin-bottom: .44rem;
+        order: 0;
+        width: 3.27rem
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .content_left p br {
+        display: none
+    }
+    .asm-platform-section .asm-for-whom .asm-for-whom_gaming .content_right {
+        order: 2
+    }
+    .asm-demo-section .description-block-title_desktop {
+        display: none
+    }
+    .asm-demo-section .description-block-title_mobile {
+        display: block
+    }
+    .asm-demo-section .asm-demo_stage {
+        padding-top: 1.65rem
+    }
+    .asm-demo-section .asm-demo_stage-sphere-wrapper {
+        height: 3.01rem;
+        left: .4467rem;
+        width: 3.01rem
+    }
+    .asm-demo-section .asm-demo_desc {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .asm-demo-section .asm-demo_desc-text {
+        font-size: var(--font-size-small);
+        line-height: .2rem;
+        margin-bottom: .544rem
+    }
+}
+
+.partners-and-investors-section {
+    visibility: visible
+}
+
+.partners-and-investors-section_contents {
+    padding: 1.04rem 0 1.4rem
+}
+
+.partners-and-investors-section .team-title {
+    border-bottom: .01rem solid #444;
+    padding-bottom: .6rem
+}
+
+.partners-and-investors-section .members-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: .7rem
+}
+
+.partners-and-investors-section .members-wrapper .member-card {
+    margin-bottom: .4rem;
+    width: 2.2rem
+}
+
+.partners-and-investors-section .members-wrapper .member-card .img-wrapper {
+    margin-bottom: .08rem;
+    width: 100%
+}
+
+.partners-and-investors-section .members-wrapper .member-card .img-wrapper img {
+    height: 2.5rem
+}
+
+.partners-and-investors-section .members-wrapper .member-card .bio-wrapper {
+    display: flex;
+    flex-direction: column
+}
+
+.partners-and-investors-section .members-wrapper .member-profession,
+.partners-and-investors-section .members-wrapper .member-title {
+    line-height: .2rem
+}
+
+@media (max-width:1024px) {
+    .partners-and-investors-section_contents {
+        padding: 1.28rem 0 .8rem
+    }
+    .partners-and-investors-section .team-title {
+        font-size: .28rem;
+        line-height: .34rem;
+        padding-bottom: .44rem
+    }
+    .partners-and-investors-section .members-wrapper {
+        flex-wrap: wrap;
+        padding-top: .44rem
+    }
+    .partners-and-investors-section .members-wrapper .member-card {
+        margin-bottom: .72rem
+    }
+    .partners-and-investors-section .members-wrapper .member-card .img-wrapper {
+        margin-bottom: .16rem;
+        overflow: hidden;
+        width: 100%
+    }
+}
+
+@media (max-width:480px) {
+    .partners-and-investors-section_contents {
+        padding: .4rem 0 .74rem
+    }
+    .partners-and-investors-section .team-title {
+        font-size: .22rem;
+        line-height: .28rem
+    }
+    .partners-and-investors-section .members-wrapper {
+        padding-top: .34rem
+    }
+    .partners-and-investors-section .members-wrapper .member-card {
+        margin-bottom: .24rem;
+        width: 100%
+    }
+    .partners-and-investors-section .members-wrapper .member-card .img-wrapper {
+        height: 4.5rem;
+        margin-bottom: .18rem;
+        width: 100%
+    }
+    .partners-and-investors-section .members-wrapper .member-card .img-wrapper img {
+        height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 100%
+    }
+    .partners-and-investors-section .members-wrapper .member-profession,
+    .partners-and-investors-section .members-wrapper .member-title {
+        font-size: var(--font-size-par3)
+    }
+}
+
+.investors-section {
+    visibility: visible
+}
+
+.investors-section_contents {
+    padding: 1.04rem 0 1.4rem
+}
+
+.investors-section_contents .investor-title {
+    border-bottom: .01rem solid #444;
+    padding-bottom: .6rem
+}
+
+.investors-section_contents .investors-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: .7rem
+}
+
+.investors-section_contents .investors-wrapper .investor {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    width: 2.2rem
+}
+
+.investors-section_contents .investors-wrapper .investor .six {
+    height: 1rem
+}
+
+.investors-section_contents .investors-wrapper .investor .centrality,
+.investors-section_contents .investors-wrapper .investor .crypto-fomo,
+.investors-section_contents .investors-wrapper .investor .d {
+    height: 1.2rem
+}
+
+@media (max-width:1024px) {
+    .investors-section_contents {
+        padding: 1.28rem 0 .8rem
+    }
+    .investors-section_contents .investor-title {
+        font-size: .28rem;
+        line-height: .34rem;
+        padding-bottom: .44rem
+    }
+    .investors-section_contents .investor .investors-wrapper {
+        flex-wrap: wrap;
+        padding: .44rem
+    }
+    .investors-section_contents .investor .investors-wrapper .investor {
+        margin-bottom: .72rem
+    }
+}
+
+@media (max-width:480px) {
+    .investors-section_contents {
+        padding: .4rem 0 .74rem
+    }
+    .investors-section_contents .investors-title {
+        font-size: .22rem;
+        line-height: .28rem
+    }
+    .investors-section_contents .investors .investors-wrapper {
+        padding-top: .34rem
+    }
+    .investors-section_contents .investors .investors-wrapper .investor {
+        margin-bottom: .24rem;
+        width: 100%
+    }
+}
+
+#main {
+    padding: .1rem
+}
+
+#main .hero-section {
+    padding-top: 0
+}
+
+#main .specialty-section {
+    padding: 2.05rem 0 1.25rem
+}
+
+#main .asm-platform-section {
+    padding: .9rem 0
+}
+
+#main .asm-demo-section,
+#main .investors-section {
+    padding: 1.1rem 0 1.03rem
+}
+
+@media (max-width:1024px) {
+    #main .specialty-section {
+        padding-bottom: 0;
+        padding-top: 1.17rem
+    }
+    #main .asm-platform-section {
+        padding: .52rem 0
+    }
+    #main .asm-demo-section,
+    #main .investors-section {
+        padding: .2rem 0 .75rem
+    }
+}
+
+@media (max-width:480px) {
+    #main {
+        padding: 0
+    }
+    #main .specialty-section {
+        padding: .44rem 0 0
+    }
+}
